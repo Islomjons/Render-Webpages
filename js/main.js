@@ -16,7 +16,7 @@ function renderUniversities(array, wrapper) {
     wrapper.appendChild(fragment)
 }
 
-fetch("http://universities.hipolabs.com/search?country=United States")
+fetch("http://universities.hipolabs.com/search?country=Uzbekistan")
     .then(response => response.json())
     .then(data => {
         data.sort(function(a, b) {
